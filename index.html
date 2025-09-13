@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="shortcut icon" href="assets/logo.gif" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <img src="assets/Logo coversor.gif" alt="logo">
+    <main>
+    <label class="moeda" >
+        Converter <strong>de:</strong>
+            <select class="currency-selector" name="from-currency" id="from-currency">
+                <option value="real">Real</option>
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+                <option value="libra">Libra Esterlina</option>
+                <option value="iene">Iene Japonês</option>
+                <option value="bitcoin">Bitcoin</option>
+
+
+            </select>
+    </label>
+
+    <label class="moeda">
+        Converter <strong>para:</strong>
+            <select class="currency-selector1" name="to-currency" id="to-currency">
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+                <option value="libra">Libra Esterlina</option>
+                <option value="iene">Iene Japonês</option>
+                <option value="bitcoin">Bitcoin</option>
+                 <option value="real">Real</option>
+
+            </select>
+    </label>
+
+    <label id="valor" for="">
+        Insira o valor:
+        <input class="input"   placeholder="R$ 0,00">
+        
+    </label>
+
+    <button class="converter">Converter</button>
+
+    <section>
+        <div>
+            <img class="dolar" src="assets/eua.png" alt="logo-dolar">
+            <p class="dolar-value1">Dolar</p>
+            <p class="dolar-value">US$ 0,00</p>
+            
+        </div>
+        <img id="seta" src="assets/seta.png" alt="seta">
+        <div>
+            <img class="real" src="assets/real.png" alt="logo-real">
+            <p class="real-value1">Real</p>
+            <p class="real-value">R$ 0,00</p>
+            
+        </div>
+        
+
+        
+       
+    </section>
+    </main>
+
+<footer class="footer"><strong> Site Criado por <a href="https://github.com/rodrigonew01" target="_blank" rel="noopener">Rodrigo Rossi</strong></a></footer>
+
+
+</body>
+
+<script src="./script.js"></script>
+</html>
